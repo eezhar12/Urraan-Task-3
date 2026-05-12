@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+}
+.logo{
+    padding: 32px 26px;
+    height: 90px;
+}
+.logo-img{
+    width: 100px;
+}
+.form-main{
+   background-color: #8f2b2b;
+   width: 98%;
+   height: 1000px;
+   margin-left: 25px;
+   
+    border-bottom-right-radius: 40px;
+}
+
+.left{
+    width: 50%;
+    height: 600px;
+   
+
+}
+.left-content{
+    position: relative;
+    top: 11%;
+    left: 18%;
+}
+h1{
+    font-size: 68px;
+    color: white;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 800;
+     margin-bottom: 16px;
+   
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.plus{
+ width: 16px;
+ height: 17px;
+ margin-left: 75%;
+    
+}
+.plus2{
+ width: 16px;
+ height: 17px;
+ margin-left: 71%;
+    
+}
+h3{
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: 20px;
+}
+.right{
+    width: 50%;
+    margin-left: 14%;
+    margin-top: 40px;
+    
+    
+}
+.form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 75%;
+    padding: 14px 12px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.902);
+    color: white;
+    margin-bottom: 16px;
+    font-size: 11px;
+}
+input::placeholder{
+    color: white;
+}
+
+
+.inputss{
+    margin-top: 20px;
+}
+h2{
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
+   height: 26px;
+}
+.box2-p{
+    margin-top: 6px;
+    font-size: 9.5px;
+    color: white;
+}
+.box2-para{
+    font-size: 11px;
+    color: white;
+   
+}.check{
+    display: flex;
+    column-gap: 6px;
+}
+.chkbox{
+
+    margin-top: 2px;
+    width: 12px;
+}
+.checkboxmain{
+    width: 53%;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.box2plus{
+     width: 16px;
+     height: 17px;
+     
+}
+textarea{
+    width: 75%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.902);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 6px 10px;
+
+}
+.subm{
+    margin-top: 40px;
+    width: 285px;
+    height: 38px;
+    font-size: 20px;
+
+}
+i{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.639);
+}
