@@ -88,45 +88,48 @@ input::placeholder{
 
 
 .inputss{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 h2{
    font-family: "Montserrat", sans-serif;
    font-weight: 800;
    height: 26px;
+   margin-top: 14px;
 }
 .box2-p{
-    margin-top: 6px;
-    font-size: 10.5px;
+    margin-top: 10px;
+    font-size: 10.8px;
     color: white;
 }
 .box2-para{
-    font-size: 11px;
+    margin-top: 4px;
+    font-size: 12.5px;
     color: white;
    
-}.check{
+}
+.check{
     display: flex;
     column-gap: 6px;
 }
-/* input[type="checkbox"]{
- margin-top: 2px;
-    width: 12px;
-    height: 12px;
-    appearance: none;
-} */
-.chkbox{
-    margin-top: 2px;
-    width: 14px;
-    height: 14px;  
+input[type="checkbox"]{
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  background: transparent;
+  transform: scale(0.5);
+     
 }
 .checkboxmain{
-    width: 46%;
+    width: 48%;
     display: flex; 
     justify-content: space-between;
-    margin-top: 8px;
+    margin-left: -5px;
+    margin-top: 3px;
 }
 .box2plus{
-     width: 16px;
+    margin-top: 6px;
+     width: 17px;
      height: 17px;
      
 }
@@ -139,6 +142,7 @@ textarea{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding: 6px 8px;
+    margin-top: -3px;
 
 }
 .subm{
