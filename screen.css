@@ -13,13 +13,22 @@
     width: 100px;
 }
 .form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    background-color: #8f2b2b;
    width: 98%;
    height: 1000px;
    margin-left: 25px;
-   
-    border-bottom-right-radius: 40px;
+    clip-path: polygon(
+  0 0,
+  100% 0,
+  100% 92%,
+  95% 100%,
+  0 100%
+);
 }
+
 
 .left{
     width: 50%;
@@ -64,24 +73,20 @@ h3{
 .right{
     width: 50%;
     margin-left: 14%;
-    margin-top: 40px;
+    margin-top: 30px;
     
     
 }
-.form-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 input{
     width: 75%;
-    padding: 14px 12px;
+    padding: 12px 8px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.902);
     color: white;
     margin-bottom: 16px;
-    font-size: 11px;
+    font-size: 12px;
 }
 input::placeholder{
     color: white;
@@ -109,10 +114,16 @@ h2{
     display: flex;
     column-gap: 6px;
 }
-.chkbox{
-
-    margin-top: 2px;
+/* input[type="checkbox"]{
+ margin-top: 2px;
     width: 12px;
+    height: 12px;
+    appearance: none;
+} */
+.chkbox{
+    margin-top: 2px;
+    width: 14px;
+    height: 14px;  
 }
 .checkboxmain{
     width: 53%;
@@ -133,13 +144,13 @@ textarea{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
-    padding: 6px 10px;
+    padding: 6px 8px;
 
 }
 .subm{
     margin-top: 40px;
-    width: 285px;
-    height: 38px;
+    width: 300px;
+    height: 42px;
     font-size: 20px;
 
 }
