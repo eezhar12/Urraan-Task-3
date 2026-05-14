@@ -98,18 +98,19 @@ h2{
 }
 .box2-p{
     margin-top: 10px;
-    font-size: 10.8px;
+    font-size: 9.8px;
     color: white;
 }
 .box2-para{
-    margin-top: 4px;
-    font-size: 12.5px;
+    margin-top: 4.8px;
+    font-size: 12.7px;
     color: white;
    
 }
 .check{
     display: flex;
-    column-gap: 6px;
+    justify-content: center;
+    column-gap: 3px;
 }
 input[type="checkbox"]{
   appearance: none;
@@ -118,19 +119,39 @@ input[type="checkbox"]{
   border: 2px solid white;
   background: transparent;
   transform: scale(0.5);
+  opacity: 1;
+}
+input[type="checkbox"]:checked::before{
+    content: "\f00c";
+    font-family: "Font Awesome 7 free";
+    color: white;
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 15%;
+    left: 5px;
      
 }
+
 .checkboxmain{
-    width: 48%;
+    width: 53%;
+    height: 24px;
     display: flex; 
     justify-content: space-between;
     margin-left: -5px;
-    margin-top: 3px;
+    margin-bottom: 8px;
+
+    
 }
+
+
+
+
 .box2plus{
-    margin-top: 6px;
-     width: 17px;
-     height: 17px;
+    margin-top: 6.7px;
+     width: 16px;
+     height: 16px;
      
 }
 textarea{
@@ -142,7 +163,7 @@ textarea{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding: 6px 8px;
-    margin-top: -3px;
+    margin-top: -6;
 
 }
 .subm{
