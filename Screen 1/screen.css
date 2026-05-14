@@ -121,7 +121,7 @@ input[type="checkbox"]{
   transform: scale(0.5);
   opacity: 1;
 }
-input[type="checkbox"]:checked::before{
+input[type="checkbox"]:checked::after{
     content: "\f00c";
     font-family: "Font Awesome 7 free";
     color: white;
